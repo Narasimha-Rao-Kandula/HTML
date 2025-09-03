@@ -1,0 +1,24 @@
+                    Anchor Elements & HyperTexts
+
+Anchor Element ( a )
+    |- navigate from one location to another location
+    |- <a attributes > </a>
+    |- attributes
+        |- href  --> it holds the source file ( imp )
+        |- target --> it shows destination
+            |-     _self (default)
+            |-     _blank (new page)
+            |-     _parent 
+            |-     _top 
+
+            |-     'frameName'  
+
+        |-  id   --> unique (#)
+
+        colors 
+        |- blue ( initial color) --- link="colorName"
+        |- red  ( active color)  --- alink="colorName"
+        |- violate (visited color) - vlink="colorName"            
+
+
+        |- download -- it is used to download any link

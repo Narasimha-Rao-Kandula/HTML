@@ -1,0 +1,44 @@
+
+                        Introduction To HTML
+
+HTML 
+    |- HT -- HyperText --> Which is nothing but Navigation (Move from one location / page to another one.)
+
+    |- ML -- Markup Language --> Which consists tags / which is enclosed by the tags {< >}
+
+    Tag
+    |- It is nothing but <(left angular) / >(right angular)
+    |- Opening Tag => { < tagName > } - Must be Contained
+    |- Closing Tag => { < / tagName > } - Optional
+    |- Example : <h1> ... </h1>
+
+    Attribute
+    |- which gives an additional information to the tag.
+    |- It should be in Opening tag. like <h1 style="color:red;">Hello</h1>
+
+    Element
+    |- The combination of tagName + Attributes + content
+    |- Example: <h1 style="color:red"> Hello </h1>
+
+    Features
+    |- Simple to use and understand.
+    |- Tags pre-defined.
+    |- case insensitive.
+    |- To structure the static Web page.
+
+Structure of the HTML 
+|- document type ( <!DOCTYPE html> )
+|- head section  ( <head> ) => Meta information such as title, viewport, ...etc.,
+|- body section ( <body> ) => this content will be visible to user.
+
+
+Formatting Tags 
+|- Physical Formatting Tags 
+|- Logical Formatting Tags
+
+
+Different types level of elements
+|-> block-level --- which takes whole / entire width like h1,h2, h3, ... , h6.
+|-> inline-level    --- which takes required / needed width like i,u,b ....etc.,
+
+

@@ -1,0 +1,28 @@
+                                Frames
+
+Frame 
+    |- It devides the web page into multiple sections.
+    |- 'frameset'  --> it's nothing but setting / aligning the frames together.
+    |- 'frame' should be use within the 'frameset' element
+    |- <frame>   ---> it defines an individual frame in a 'frameset'
+
+    |- attributes
+        |- cols / rows ( % )
+        |- src ---> source of the file / path / location of the file that hold.
+        |- name  --- defines the name of the frame
+        |- scrolling  --- { yes / No}
+        |- frameborder --- 0 (Border -> hide)
+                           1 (Border -> visible)
+        |- border  --- it provides width interms pixels (deprecated)
+        |- bordercolor --- color of the border
+        |- marginwidth and marginheight 
+
+    Note:
+    |- not need to mention 'body' element.
+
+
+                            anchor & hyperlinks
+
+
+
+                            sectioning elements

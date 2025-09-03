@@ -1,0 +1,31 @@
+                            Sections
+        
+        These elements provide structure, more understandable and grouping content.
+
+|- Semantic Sections
+    |- Semantic   --- meaningful / clear
+
+    |- <header>  -- heading information ( logos, search bar...etc.,)
+
+    |- <main>    -- content
+        |- <nav>   --- navigation
+        |- <aside> --- side bar
+        |- <article> - reports,blogs
+        |- <section> - group the content.
+
+    |- <footer>  -- about the webpage such as contact links, copy right, tems and condtion, address ....etc.,
+
+|- Generic Sections / containers
+    |- div      -- block-level element
+    |- span     -- inline-level element
+
+
+
+
+
+    body     ---- students
+    sections  --- year ( 1st, 2nd, 3rd, 4th)
+                    1st
+                    |- AIML
+                    |- DS
+                    |- CB

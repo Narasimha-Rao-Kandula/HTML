@@ -1,0 +1,14 @@
+                                    Lists
+
+It is nothing but a collection of elements.How they are arranged either ordered or unordered.
+
+Types of Lists
+|- Ordered List  ( V )    --- ( ol )
+|- Unordered List ( V )   --- ( ul )
+|- Definition List ( V )  --- ( dl --> dt --> dd )
+
+|- Menu List ( X )   --- ( menu )
+|- Directory List ( X ) -( dir )
+
+To represent a list we have to use 'li'
+|- 'li'   --- List Item
