@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    <!-- table>tr>td{Id}+td{Name}+td{Section} -->
+    <table border="1" align="center" title="Students Information" cellpadding="8" cellspacing="5" style="border-collapse: collapse;">
+        <!-- <tr>
+            <td><b>Id</b></td>
+            <td><b>Name</b></td>
+            <td><b>Section</b></td>
+        </tr> -->
+        <caption>Students Information</caption>
+
+        <colgroup>
+            <col style="background-color: rgb(244, 47, 47);">
+            <col style="background-color: rgb(241, 47, 244);">
+            <col style="background-color: rgb(47, 244, 136);">
+        </colgroup>
+
+        <thead bgcolor="aqua">
+            <th width="75px">Id</th>
+            <th>Name</th>
+            <th>Section</th>
+        </thead>
+
+        <!-- table data (values passing) -->
+        <tbody align="center">
+            <tr>
+            <td>1</td>
+            <td>Nisha</td>
+            <td rowspan="2">Data Science</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Rao</td>
+                <!-- <td>Data Science</td> -->
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Ishaa</td>
+                <td>Information Technology</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">No.of Students : 03</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

@@ -1,0 +1,50 @@
+                        Tables 
+    Tables are used 
+    |- to display our data interms of rows and columns
+    |- which is helpful to identify easily
+
+<table>  -- creates a table
+|- table data created interms rows ( row by row)
+        |- Attributes : 
+        |- border --- border to the table data
+            |- Note: no need to mention the units (px,%,em)
+        |- span  --- increasing its either width / height
+            |- colspan  --- column span --> expand across the rows
+            |- rowspan  --- row span    --> expand across the columns
+        |- align  -- position of the text {left(dafult),center, right}
+        |- cellpadding --- space btw border and text (cellpadding = "0" (default))
+        |- cellspacing --- space btw cell (cellspacing = "1" (default))
+        |- width & height --- units ---> px,percentage (%)
+        |- style --- apply css styles such as color, background-color,...etc.,
+            |- border-collapse 
+                |- collapse  --- entire border
+                |- seperate  --- individual border (default)
+
+        
+
+    |- <tr> --- creates a table row 
+    |- <td> --- creates a table data { it represents one column }
+    |- <th> --- creates as table heading { text-align -- center (default)}
+
+    |- <caption> -- provides the title of table in center
+
+    |- <colgroup> --- column group --- a set of columns
+        |- <col>
+        |- Note : we have declare / define it after <caption> element. 
+    
+Let's consider 
+|- Human Body  --- head, body, legs
+|- Tables      --- thead, tbody, tfoot
+
+    |- Table Head --- <thead> -- heading such as idno, name, section
+        |- <th> (recommended) / <td>
+        |- difference ?
+            |- th --- text will be bold, text aligned at center
+            |- td --- text will be normal, text aligned at left
+        |- Note: 
+            |- If you have only one row in head part then no need to mention the <tr>
+
+    |- Table Body --- <tbody>  -- data (main data) { 1, Narasimha, AIML }
+        |- <td>
+
+    |- Table Footer --- <tfoot>  -- footer content ( about, total student, price ( cost ))
