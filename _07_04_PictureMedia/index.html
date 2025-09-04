@@ -1,0 +1,79 @@
+
+<!-- 
+                            09th August, 2025
+                            06:00PM - 07:00PM
+                    Multimedia (Image Containers) Concept In HTML
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Containers</title>
+</head>
+<body>
+    <figure>
+        
+        <figcaption>Narasimha web Development</figcaption>
+
+        <img src="NarasimhaWebDev.png" srcset="DeepDive.jpg 400w, MoonImage.jpg 800w,  NarasimhaWebDev.png 1000w" sizes="(min-width : 400px) 400px, (max-width: 800px) 800px">
+   
+    </figure>
+
+    <picture>
+        
+        <source srcset="DeepDive.jpg" media="(max-width:400px)">
+
+        <source srcset="MoonImage.jpg" media="(max-width: 800px)">
+
+        <source srcset="NarasimhaWebDev.png" media="(min-width: 1200px)">
+
+        <img src="./NarasimhaWebDev.png" alt="NarasimhaWebDev" width="500" height="500">
+        
+    </picture>
+</body>
+</html>
+
+
+<!-- 
+                            Notes 
+                          
+figure 
+    |- Container
+        |- img   --- tag
+    |- figcaption  --- (Caption / Name / heading of the image)
+    |- imgages ---- Attributes
+        |- srcset
+            Syntax:
+                srcset = "image1 width(x),image2 width(x),..,image-n width"
+                    |- image1  -- Name of the image / path of the file
+                    |- width
+                        DPR 
+                            |- Device Pixel Ratio (x)
+                                |- 3 tyes ---- 1x , 2x, 3x (dev tools)
+                        wider 
+                            |- Intrinsic Width (w) 
+                            |- Extrinsic Width (px)
+
+                Note :
+                |- If you use an intrinsic width then you have mention the 'sizes' attribute.
+
+                                
+        |- sizes
+            Syntax: 
+                sizes = "(mediaQuery) width(px), (mediaQuery) width(px)"
+                    |- width
+                        |- (min-width : 400px)  -- width >= 400
+                        |- (max-width : 800px)  -- width <= 800 
+
+picture
+    |- Container
+    |- media
+
+Note :
+---- If you use 'source' tag you have to mention the attribute 'srcset'. otherwise it won't work.
+
+
+
+-->

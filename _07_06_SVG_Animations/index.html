@@ -1,0 +1,180 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG Animation</title>
+</head>
+<body>
+    <!-- 
+        SVG  --- Scalar Vector Graphics
+
+        Animation  --- movement / motion
+
+        |- Types of Animation's Elements
+        1. <animate>
+        2. <animateTransform>
+        3. <animateMotion>
+        4. <set>
+
+        Eg:
+        <circle /> 
+            (or)
+        <circle> ... </circle>
+
+
+    -->
+
+    <svg width="500" height="500" style="border: 2px solid midnightblue;">
+        <!-- line creation -->
+        <path d="M100,250 L400,250" fill = "cyan" stroke="deeppink" stroke-width="5"/>
+
+        <!-- circle -->
+        <!-- <circle cx="100" cy="220" r="25" fill="cyan" stroke="black">
+            <animate 
+            attributeName="cx"
+            from="100"
+            to="400"
+            dur="1s"
+            repeatCount="indefinite"
+            repeatDur="10s"
+            begin="1s"
+            calcMode="discrete"
+            />
+        </circle> -->
+
+        <!-- circle -->
+        <!-- 
+        <circle cx="100" cy="220" r="25" fill="none" stroke="black">
+
+            <animate 
+            attributeName="fill"
+            values="red;cyan"
+            dur="1s"
+            begin="1s"
+            repeatCount="indefinite"
+            fill="freeze"
+            />
+
+            <animate 
+            attributeName="cx"
+            from="100"
+            to="400"
+            dur="1s"
+            repeatCount="indefinite"
+            repeatDur="10s"
+            begin="click"
+            calcMode="linear"
+            />
+
+        </circle> 
+        -->
+
+        <!-- animateTransform
+            |-  attributeName="transform"
+            |- type="
+                1. translate
+                2. rotate
+                3. scale
+                4. skewX
+                5. skewY
+            "
+        -->
+
+        <!-- <rect width="50" height="50" x="200" y="200" fill="midnightblue">
+            <animateTransform
+            attributeName="transform"
+            type="translate"
+            from="0,0"
+            to="0,100"
+            dur="2s"
+            repeatCount="1"
+            />
+        </rect> -->
+
+        <!-- <rect width="50" height="50" x="200" y="200" fill="midnightblue">
+            <animateTransform
+            attributeName="transform"
+            type="translate"
+            from="0,0"
+            to="0,100"
+            dur="2s"
+            repeatCount="1"
+            />
+        </rect> -->
+
+        <!-- <rect 
+        width="50" height="50"
+        x="100"
+        y="200"
+        fill="cyan"
+        >
+            
+            <animateTransform 
+            attributeName="transform"
+            type="translate"
+            from="0,0"
+            to="250,250"
+            dur="5s"
+            repeatCount="3"
+            />
+        </rect> -->
+
+        <!-- rotate -- syntax -- deg cx cy --> 
+        <!-- <rect 
+        width="50" height="50"
+        x="100"
+        y="200"
+        fill="cyan"
+        >
+            
+            <animateTransform 
+            attributeName="transform"
+            type="rotate"
+            from="0 100 250"   
+            to="360 100 250"   
+            dur="10s"
+            repeatCount="2"
+            />
+        </rect> -->
+
+        <!-- <rect 
+        width="50" height="50"
+        x="100"
+        y="200"
+        fill="cyan"
+        >
+            
+            <animateTransform 
+            attributeName="transform"
+            type="scale"
+            from="1,1 "   
+            to="1.1,2.1 "   
+            dur="2.5s"
+            repeatCount="2"
+            />
+        </rect> -->
+
+        <!-- <rect 
+        width="50" height="50"
+        x="100"
+        y="200"
+        fill="cyan"
+        >
+            
+            <animateTransform 
+            attributeName="transform"
+            type="skewY"
+            from="0"   
+            to="45"   
+            dur="2.5s"
+            repeatCount="2"
+            />
+        </rect> -->
+
+        
+    
+    
+    </svg>
+</body>
+</html> -->

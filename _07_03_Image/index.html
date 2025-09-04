@@ -1,0 +1,50 @@
+
+<!-- 
+                            08th August, 2025
+                            06:00PM - 07:00PM
+                    Multimedia (Image) Concept In HTML
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+</head>
+<body>
+    <h1>Working With Images</h1>
+    
+    <img  src="./MoonImage.jpg" width="550" height="550" alt="MoonImage" title="MoonImage" usemap="#mymap" >
+
+    <map name="mymap">
+        <area shape="poly" coords="0,10,20,30,40,50,40,30,20,10,0" href="http://www.google.com"  target="_blank">
+    </map>
+</body>
+</html>
+
+<!-- 
+
+                                        Notes:
+
+image
+    |- <img>
+    |- Attributes
+        |- src  --- file path
+        |- alt  --- alternative text
+        |- width & height --- (don't pass any units for it. only pass numerical data such as 250,300..etc., The browser consider as pixels.)
+        |- title  --- whenever the cursor is placed on the image then the text will appear to the user simply they can understand and easy to understand.
+        |- usemap  --- mapping (#name)
+            <map>
+            |- name   ---  name of map
+            <area>
+                |- shape  --- circle, rectangle (rect), polygon (poly), default
+                |- coords  --- coordinating points
+                    |- circle  --- x,y,r
+                
+                |- alt  --- alternative text
+                |- href  --- file path
+                |- title  --- title of the map
+                |- target  --- destination view ( _blank, _self, _parent, _top) 
+                
+-->

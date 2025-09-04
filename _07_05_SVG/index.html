@@ -1,0 +1,263 @@
+
+<!-- 
+                            13th August, 2025
+                            06:00PM - 07:00PM
+                    Multimedia (SVG) Concept In HTML
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG Element</title>
+</head>
+<body style="display: flex;justify-content: center; align-items: center;">
+    <!-- <svg viewBox="0 0 1000 1000" style="border: 2px solid lawngreen;"> -->
+    <svg width="500" height="500" style="border: 2px solid rgb(12, 159, 154);">
+        <!-- 
+        
+        1. circle           --- <circle />
+        2. rectangle        --- <rect />
+        3. line             --- <line />
+        4. polygon          --- <polygon />
+        5. polyline
+        6. ellipse
+        7. text
+        8. path
+        9. textpath
+        10. def
+        11. g
+        
+        -->
+
+        <!-- circle   -- attributes -> cx, cy, r, fill, stroke, opacity (0-1) -->
+
+        <!-- <circle cx="100" cy="100" r="50" fill="cyan" stroke="black" stroke-width="5" opacity=".9" fill-opacity=".85" stroke-opacity=".5"/> -->
+
+        <!-- rectangle  Attributes -> width, height, x, y -->
+
+        <!-- <rect width="250" height="250" x="100" y="200" fill="aqua" stroke="black" stroke-width="25"/> -->
+
+        <!-- line  Attributes ->  -->
+
+        <!-- <line x1="200" y1="100" x2="200" y2="200"  stroke="red" stroke-width="15"/>
+
+        <line x1="200" y1="100" x2="250" y2="200"  stroke="cyan" stroke-width="15"/>
+
+        <line x1="250" y1="200" x2="250" y2="100"  stroke="blue" stroke-width="15"/> -->
+
+        <!-- polygon
+             |-  Attributes  -- points
+                |- points = "(x1,y1) (x2,y2) (x3,y3) .....(xn,yn)  "
+
+                |- points = "(x1 y1),(x2 y2),(x3 y3), .....,(xn yn)  "
+         
+        -->
+
+        <!-- traingle -->
+        <!-- <polygon points="20,100 60,20 100,100" fill="none" stroke="black" stroke-width="2"/> -->
+
+        
+        <!-- <polygon points="125,0 125,250 0,125 250,125"
+        stroke="red"
+        stroke-width="2"
+        fill="cyan" 
+        /> -->
+
+        <!-- <polygon 
+        points="15,100 50,10 85,100 0,50 100,50"
+        stroke="black"
+        stroke-width="2"
+        fill="none" 
+        fill-rule="nonzero"
+        /> -->
+
+        <!-- <polyline
+        points="25,30 50,30 50,60 75,60 75,75 100,75"
+        stroke="black"
+        stroke-width="2"
+        fill="none" 
+        fill-rule="nonzero"
+        /> -->
+
+
+        <!-- ellipse ->Attributes -- cx,cy, rx and ry  -->
+
+        <!-- 1 -->
+        <!-- <ellipse cx="125" cy="125" rx="75" ry="22.5" fill="orange" stroke="black" stroke-width="2.5"/> -->
+
+        <!-- 2 -->
+        <!-- <ellipse cx="125" cy="75" rx="60" ry="20" fill="white" stroke="black" stroke-width="2.5"/> -->
+
+        <!-- 3 -->
+        <!-- <ellipse cx="125" cy="25" rx="45" ry="15" fill="green" stroke="black" stroke-width="2.5"/> -->
+
+        <!-- polygon  -- closed path --- atleast 3 points  -->
+
+        <!-- <polygon
+        points="
+        15,100
+        50,20
+        80,100
+        10,50
+        90,50
+        "
+
+        fill="lawngreen"
+        stroke="red"
+        /> -->
+        <!-- <polyline
+        points="
+        15,100
+        50,20
+        80,100
+        10,50
+        90,50
+        15,100
+        "
+
+        fill="none"
+        stroke="black"
+        stroke-dasharray="1"
+        /> -->
+
+        <!-- 
+        1. defs --- defining the path
+        2. clipPath --- clipping / cropping
+            |- id = "name"
+
+        3. image --- clip-path = "url(#idName)"
+        
+        -->
+
+        <defs>
+
+            <!-- <clipPath id="star-pic">
+
+                <rect width="250" height="250" x="125" y="125" />
+
+            </clipPath> -->
+
+        </defs>
+
+        <!-- <image href="./MoonImage.jpg" alt="Web Dev"   height="250" width="250" clip-path="url(#star-pic)"/> -->
+
+        <!-- <circle cx="100" cy="100" r="50" clip-path="url(#star-pic)" fill="cyan" /> -->
+
+        <!-- path
+         |- Attribute
+            d  -  draw 
+            M  -   starting point 
+                    |- M(x,y)
+            L  -   line point ( another point) 
+                    |- L(x,y)
+            Z   -   closing
+
+
+            curves -- 2types (CSQT)
+            |- 1. Quadratic Bezier Curve -- Q
+                |-Syntax: Q cx cy x y
+                    |- cx,cy -- center of the curve (1st control point)
+                    |- x,y -- end point
+                
+                -- T -- Tx,y
+
+
+
+            |- 2. Cubic Bezier Curve
+                |- Syntax 
+                    C x1,y1 x2,y2 x,y
+                
+                -- S -- Sx1,y1 x,y
+
+            H   - horizontal point
+                |- Syntax :     Hx
+
+            V   - vertical point
+                |- Syntax :     Vy
+            A   - Arc
+                Syntax :
+                    A rx ry xAxisRot'n arcFlag sweepFlag x,y
+
+                    |- rx, ry --radii
+                    |- xAxisRot'n-(0)
+                    |- arcFlag- l(1), s(0)
+                    |- sweepFlag-anticlkwise (0), clkwise(1)
+                    |- x,y
+
+
+        -->
+<!-- 
+        <path 
+        d="
+        M100,250
+        
+        Q 125 50 250 250
+
+        T400,250
+        Z
+        "
+
+        stroke="red"
+        stroke-width="5"
+        fill="none"
+        /> -->
+
+        <!-- <path 
+        d="
+        M100,250
+
+        C 150,100 200,100 250,250
+        
+        S 350,350  400,250
+                
+
+        Z
+        "
+
+        stroke="red"
+        stroke-width="5"
+        fill="none"
+        /> -->
+
+        <!-- <path id="text"
+        d="
+        M100,250
+        L350,250
+
+        "
+
+        stroke="red"
+        stroke-width="2"
+        fill="none"
+        />
+
+        <text 
+        font-size="25"
+        font-weight="800"
+        text-decoration="underline"
+        font-family="impact"
+        text-anchor="start"
+        rotate="1"
+        fill="none"
+        stroke="black"
+    
+        
+        >
+            <textpath href="#text"
+            letter-spacing="0"
+            >
+                Hell
+                <tspan fill="cyan">0!</tspan> 
+                World
+            </textpath>
+        </text> -->
+
+    </svg>
+
+</body>
+</html>
+
+
+
