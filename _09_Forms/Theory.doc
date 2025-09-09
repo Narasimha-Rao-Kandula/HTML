@@ -1,0 +1,113 @@
+                                    Forms
+        
+        To collect the data/Information from the users.
+
+    <form>       --- it creates a form section
+    |- action    --- When the user submit the information then what will occur -- (path)
+    |- method    --- The way of sending the data --- post, get(default)
+
+    Note :
+    |- By default -- action="./currentFile" method="GET"  
+        URL ---  ./index.html?fname=Narasimha  ()
+
+    |- target    --- Where you want display -- ( _self, _blank, _parent, _top )
+    |- novalidate -- Validation
+
+
+    <fieldset>    --- it groups the  form elements
+    <legend>      --- it creates a title/caption for the fieldset
+
+
+    <label>     --- Attributes -- for
+
+    <input />    --- it takes the data from user
+    |- Attributes 
+        |- type          --- type of the data
+            |- text  
+
+        |- name          --- name of the input
+        |- placeholder   --- hint to user 
+        |- global Attributes  --- class, id, title....etc.,
+
+
+    <button>    --- used for user interaction like submit,reset
+    |- Attributes
+        |- type  --- submit, reset (It clears all input fields)
+        |- value --- text, 
+    
+
+    Input Elements:
+    ---------------
+
+    1. <input>
+        |- Attributes
+            |- type       --- which type data user can send 
+                |- *1. text   --- it allows only text( alphanum, symbols )
+                |- *2. number --- it allows select numberic values
+                |- 3. date   --- it allows to select date 
+                |- *4. datetime - it allows to enter date and time 
+                |- *5. datetime-local - it also allows to select date and time
+                |- 6. image  --- it allows to upload images  ( not working )
+                |- *7. file  --- it allows to upload images,files,...etc.,
+                |- *8. tel   --- it allows phone number
+                |- 9. submit --- it allows to submit their data
+                |- *10. email --- it checks the valid mail or not
+                |- *11. password - it allows to enter password( . representation)
+                |- *12. color  --- it allows to select color
+                |- *13. radio  --- it allows to select any one option only 
+                |- *14. checkbox --- it allows to select multiple options 
+                    Note Point for both 13 and 14:
+                    |- label  --- for  |
+                                       |--> values must be equal / same to select
+                    |- input  --- name |
+
+                |- 15. range   ---  it shows progress bar 
+                                    in between --> min, max, step
+                                    Eg:   1    2    3    4   5   6   7   8
+                                        min                            max
+                                        step = 2
+                                        |- 1   2(X)    3   4(X)    5   6(X) 
+
+                |- 16. search   --- it allows to search
+                |- 17. week     --- it allows to select the week of the year
+                |- 18. month    --- it allows to select the month of the year
+                |- 19. hidden   --- it hides the content
+
+                <!-- User clickable (buttons -- appear) / user-interactive input fields -->
+
+                |- 20. button   --- display as a  virtual button  (it does not show as a button)
+                |- 21. reset    --- to clear all input-fields (it does not show as a button)
+                |- 22. submit   --- to send the data to server (it appear as button)
+
+            |- placeholder -- Hint to user to enter the data
+
+            |- name  --- name of the input
+
+            |- disabled, readonly  ---- not possible to fill
+
+            |- required  --- must be fill the input field
+
+            |- pattern  --- its way of sequence / rule / order
+                    |- pattern="[A-Za-z]{3}" title="Three letter country code"
+                    |- attribute --- title --> it helps to identify the mistake
+
+            |- Global attributes  --- id, class, title, name, style... etc.,
+
+    2. <textarea>
+        |- it allows multiple lines of user input
+        |- Attributes
+            |- rows  -- it defines the no.of rows
+            |- cols  -- it defines the no.of cols
+
+    3. <select>
+        |- Attributes --- id (match possible (selection work))
+            |- Note: lable--> for (attribute) and select--> id (attribute) must be consist the same name/value.
+        |- <option> --- it defines options 
+            |- Attributes -- value(easily identify / SEO ) 
+
+    4. <datalist>     --- list of items to select any one of them
+    |- types of usages
+        |- input(field) --- Attribute --   list --- tells us the type of list (you have mention in input tag)
+        |- select 
+            |- <optgroup> -- options groupping -- Attributes --> label ( group name visible )
+                |- it groups the multiple <option> elements

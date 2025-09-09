@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <!-- <form action="./submitdata.html" method="get">
+        <label for="">First Name : </label>
+        <input type="text" name="firstname" />
+
+    </form>  -->
+
+
+    <!-- <form action="./Output.json" method="post">
+        <label for="">First Name : </label>
+        <input type="text" name="firstname" />
+
+    </form> -->
+    <!-- 
+    <form>
+        <fieldset>
+            <legend>Person Details</legend>
+            <label >First Name :</label>
+            <input type="text" placeholder="Enter your name" name="firstname"/>
+            <br><br>
+            <label >Middle Name :</label>
+            <input type="text" placeholder="Enter your name" name="middlename"/>
+            <br><br>
+            <label >Last Name :</label>
+            <input type="text" placeholder="Enter your name" name="lastname"/>
+            <br><br>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+    -->
+    <!-- <center>Kandula Narasimha Rao</center> -->
+    <!-- <center>Narasimha Rao Kandula</center> -->
+
+    <form>
+        <fieldset>
+            <legend>Input Types Cheking</legend>
+
+            <!-- 1. type = text -->
+            <label>Name : </label><input type="text" required>
+            <label for="username">Username:</label>
+<input type="text" id="username" name="username" pattern="[a-z]{5,10}" title="Username must be 5 to 10 lowercase letters">
+            <br><br>
+            <!-- 2. type = number -->
+            <label>Age : </label><input type="number">
+            <br><br>
+            <!-- 3. type = date -->
+            <label>Date of Birth : </label><input type="date" disabled>
+            <br><br>
+            <!-- 4. type = datetime -->
+            <label>Date of Birth : </label><input type="datetime">
+            <br><br>
+            <!-- 5. type = datetime-local -->
+            <label>Local Date and Time : </label><input type="datetime-local">
+            <br><br>
+            <!-- 6. type = image -->
+            <label>Profile : </label><input type="image" >
+            <br><br>
+            <!-- 7. type = file -->
+            <label>Profile : </label><input type="file">
+            <br><br>
+            <!-- 8. type = tel -->
+            <label>Phone Number : </label><input type="tel">
+            <br><br>
+            <!-- 9. type = email -->
+            <label>Enter e-mail Id : </label><input type="email" readonly placeholder="nnarsimharao570@gmail.com">
+            <br><br>
+            <!-- 10. type = password -->
+            <label>Enter password : </label><input type="password" pattern="[a-z]">
+            <br><br>
+            <!-- 11. type = url -->
+            <label>Create a new URL : </label><input type="url">
+            <br><br>
+            <!-- 12. type = color -->
+            <label>Choose a color : </label><input type="color">
+            <br><br>
+            <!-- 13. type = radio -->
+            <label for ="Gender" >Select Gender : </label>
+            <input type="radio"name="Gender" value="Male">
+            <label >Male</label>
+            <input type="radio"name="Gender" value="Female">
+            <label >Female</label>
+            <br><br>
+            <!-- 14. type = checkbox -->
+            <label for="Games">Select Games :  </label>
+            <input type="checkbox" name="Games" value="Cricket">
+            <label>Cricket</label>
+            <input type="checkbox" name="Games" value="Kabaddi">
+            <label>Kabaddi</label>
+            <br><br>
+            <!-- 15. type = range -->
+            <label>Choose a range : </label>
+            <input type="range" name="Volume" min="10" max="100" step="20">
+            <br><br>
+            <!-- 16. type = search -->
+            <label>Search here : </label>
+            <input type="search">
+            <br><br>
+            <!-- 17. type = week -->
+            <label>Select Week : </label>
+            <input type="week">
+            <br><br>
+            <!-- 18. type = month -->
+            <label>Select month : </label>
+            <input type="month">
+            <br><br>
+            <!-- 19. type = hidden -->
+            <label>This is hidden : </label>
+            <input type="hidden">
+            <br><br>
+            <!-- User clickable / user-interactive input fields -->
+            <!-- 20. type = button -->
+            <label>This is  button : </label>
+            <input type=" button">
+            <br><br>
+            <!-- 21. type =submit -->
+            <label>This is submit : </label>
+            <input type="submit">
+            <br><br>
+            <!-- 22. type = reset -->
+            <label>This is  reset : </label>
+            <input type=" reset">
+            <br><br>
+
+            <!--  Buttons -- submit , reset -->
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+            <br><br>
+            
+            <!-- textarea --- it allows multiple lines of user input  -->
+            <!-- <input type="text"> ( overcome is issue ) -->
+            <textarea rows="9" cols="9"></textarea>
+            <br><br><br>
+
+            <!-- Dropdown Menu -->
+
+            <!-- Male Names -->
+            <label for="maleNames">Select Male Names : </label>
+            <select id="maleNames">
+                <option value="Narasimha">Narasimha</option>
+                <option value="Ramanji">Ramanji</option>
+                <option value="Akhil">Akhil</option>
+            </select>
+            <br><br>
+
+            <!-- Female Names -->
+            <label for="femaleNames">Select Female Names : </label>
+            <select id="femaleNames">
+                <option value="Nisha">Nisha</option>
+                <option value="Amulya">Amulya</option>
+                <option value="Pavitra">Pavitra</option>
+            </select>
+
+            <!-- 
+                       Male Names
+                     / 
+            Names --
+                     \
+                       Female Names
+            -->
+
+            <!-- <select id="maleNames">
+                <option value="Narasimha">Narasimha</option>
+                <option value="Ramanji">Ramanji</option>
+                <option value="Akhil">Akhil</option>
+            </select>
+
+            <select id="femaleNames">
+                <option value="Nisha">Nisha</option>
+                <option value="Amulya">Amulya</option>
+                <option value="Pavitra">Pavitra</option>
+            </select>
+            <br><br><br> -->
+            
+            <br><br><br>
+            <!-- option grouping -->
+            <label for="names" > Names : </label>
+            <input list="names" >
+            <datalist  id="names">
+                <!-- male names -->
+                <optgroup name="maleNames">
+                    <option value="Narasimha">Narasimha</option>
+                    <option value="Ramanji">Ramanji</option>
+                    <option value="Akhil">Akhil</option>
+                </optgroup>
+                <!-- female names -->
+                <optgroup name="femaleNames">
+                    <option value="Nisha">Nisha</option>
+                    <option value="Amulya">Amulya</option>
+                    <option value="Pavitra">Pavitra</option>
+                </optgroup>
+            </datalist>
+
+
+            <br><br><br><br><br>
+            <label for="names" > Names : </label>
+            <!-- <input list="names" > -->
+            <select  id="names">
+                <!-- male names -->
+                <optgroup label="maleNames">
+                    <option value="Narasimha">Narasimha</option>
+                    <option value="Ramanji">Ramanji</option>
+                    <option value="Akhil">Akhil</option>
+                </optgroup>
+                <!-- female names -->
+                <optgroup label="femaleNames">
+                    <option value="Nisha">Nisha</option>
+                    <option value="Amulya">Amulya</option>
+                    <option value="Pavitra">Pavitra</option>
+                </optgroup>
+            </select>
+
+
+        </fieldset>
+    </form>
+
+</body>
+</html>
