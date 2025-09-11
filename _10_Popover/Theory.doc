@@ -1,0 +1,71 @@
+                                    Popover
+    |- pop  -- deleting / removing
+    |- over -- on top of the layer
+    |- popover -- a small pop-up window that appears when a user clicks on an element
+
+    Popover is a small pop-up window that appears when a user clicks on an element. 
+    It is used to display additional information or options related to the element.
+    Popovers are commonly used in web applications to provide a more interactive and user-friendly experience.
+
+    Attributes :
+    |- popover -- hide it
+    |- popovertarget  -- it targets the pop-up
+
+    Note : 'popover' --> id name and target values must be same.
+
+    |- popovertargetaction  -- it controls the pop-up's
+        |- hide  --- close / hidden
+        |- show  --- display to the user
+        |- toggle --- change one to another
+
+
+    Project Work:
+    -------------
+
+    1. Take a menu button
+    2. <!-- popover  -->
+        2.1 Content / links 
+        2.2 Close
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

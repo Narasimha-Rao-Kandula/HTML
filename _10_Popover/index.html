@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popover Boxes</title>
+</head>
+<body>
+    <!-- Button Creation -->
+    <!-- <button type="button" popovertarget="popoverbox">Popover Display</button> -->
+
+    <!-- pop-up box -->
+    <!-- <div id="popoverbox" style="border:2px solid; padding: 25px;" popover >
+        This pop-up box
+        <button type="button" popovertarget="popoverbox" popovertargetaction="toggle">Close</button>
+    </div> -->
+
+    <!-- Project Work to display the menu-list by using 'popover' conecept -->
+    <button type="button" popovertarget="menu">Menu</button>
+
+    <!-- pop-up menu -->
+    <div style="border: 1px solid;" popover id="menu">
+        <!-- list of menu items -->
+        <ul type="none">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+        <!-- closing btn -->
+        <button type="button" popovertargetaction="hide" popovertarget="menu">X</button>
+    </div>
+
+</body>
+</html>
