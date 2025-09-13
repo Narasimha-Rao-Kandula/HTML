@@ -1,0 +1,19 @@
+                        Links
+    
+    Link -- In general scenario, it is a connection btw any two things
+
+    <link> --- we can create connection
+    |- rel  --- relationship 
+        |- stylesheet --- stylesheet the file
+        |- script --- script the file
+        |- icon --- icon the file
+        |- preload , dns-prefetch 
+        |- manifest --- manifest the file 
+    |- href --- hyper reference
+    |- type --- type of the file
+    |- media --- media type
+    |- hreflang --- language of the file
+    |- title --- title of the file
+
+     
+
