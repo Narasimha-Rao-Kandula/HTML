@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Explorer Project</title>
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <!-- Display travel company name/logo. -->
+        <h1>Welcome To Narasimha's Travels</h1>
+
+        <!-- Links to #home, #destinations, #packages, #booking, #reviews, #contact. -->
+        <nav>
+            <a href="#Home">Home</a>&nbsp;&nbsp;&nbsp;
+            <a href="#Destinations">Destinations</a>&nbsp;&nbsp;&nbsp;
+            <a href="#Packages">Packages</a>&nbsp;&nbsp;&nbsp;
+            <a href="#Bookings">Bookings</a>&nbsp;&nbsp;&nbsp;
+            <a href="#Reviews">Reviews</a>&nbsp;&nbsp;&nbsp;
+            <a href="#Contact">Contact</a>
+        </nav>
+        
+    </header>
+
+    <!-- Body -->
+    <main>
+        <!-- This is actual Content -->
+
+        <!-- Home Section -->
+        <section id="Home">
+            <!-- This is Home Section -->
+
+            <!-- Welcome text. -->
+            <h3>
+                Welcome to Narasimha's Travels! It’s time to pack your bags and embrace new adventures.
+            </h3>
+
+            <!-- Travel banner image. -->
+            <figure>
+                <img src="./Travel Banner.png" alt="Travel Banner Image" width="900" height="350">
+                <!-- <figcaption>Travel Banner Image</figcaption> -->
+            </figure>
+        </section>
+
+        <!-- Destinations Section -->
+        <section id="Destinations">
+            <!-- At least  4 destinations with image and description. -->
+             
+            <figure>
+                <img src="./Taj Mahal.png" alt="Taj Mahal">
+                <figcaption>
+                    <h2><u>Taj Mahal, Agra</u></h2>
+                </figcaption>
+            </figure>
+            <p>
+                A UNESCO World Wonder and symbol of eternal love. This white-marble mausoleum by Shah Jahan is breathtaking at sunrise
+            </p>
+
+            <figure>
+                <img src="./GoaBeach.png" alt="GoaBeach">
+                <figcaption>
+                    <h2><u>Goa</u></h2>
+                </figcaption>
+            </figure>
+            <p>
+                 India’s beach paradise with golden sands (Palolem, Anjuna), Portuguese architecture (Old Goa), vibrant nightlife, and seafood feasts.
+            </p>
+
+            <figure>
+                <img src="./Rann of Kutch.png" alt="Rann of Kutch">
+                <figcaption>
+                    <h2><u>Rann of Kutch, Gujarat</u></h2>
+                </figcaption>
+            </figure>
+            <p>
+                A vast salt desert that transforms into a white wonderland. Visit during the Rann Utsav (Dec–Feb) for cultural performances, camel safaris, and crafts.
+            </p>
+
+            <figure>
+                <img src="./Sundarbans.png" alt="Sundarbans" width="800" height="350">
+                <figcaption>
+                    <h2><u>Sundarbans, West Bengal</u></h2>
+                </figcaption>
+            </figure>
+            <p>
+                World’s largest mangrove forest and tiger reserve. Spot Royal Bengal tigers, saltwater crocodiles, and unique biodiversity.
+            </p>
+
+        </section>
+
+        <!-- Packages Section -->
+        <section id="Packages">
+            <!-- Table with Package Name, Duration, Price, Features. -->
+            
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Package Name</th>
+                        <th>Duration</th>
+                        <th>Price</th>
+                        <th>Features</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Taj Mahal</td>
+                        <td>7days</td>
+                        <td>15000/-</td>
+                        <td>🏛️ Architectural Marvel, 💖 The Love Story</td>
+                    </tr>
+                    <tr>
+                        <td>Goa</td>
+                        <td>8days</td>
+                        <td>25000/-</td>
+                        <td>🌶️ Foodie Heaven</td>
+                    </tr>
+                    <tr>
+                        <td>Rann of Kutch</td>
+                        <td>4days</td>
+                        <td>12000/-</td>
+                        <td>🏛️ Historic & Spiritual Sites, 🎨 Kutchi Culture & Crafts</td>
+                    </tr>
+                    <tr>
+                        <td>Goa</td>
+                        <td>5days</td>
+                        <td>5000/-</td>
+                        <td>🌿 A Natural Wonder</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Booking Section -->
+        <section id="Bookings">
+            <form>
+                <fieldset>
+                    <legend>Booking Section</legend>
+                    <label>Full Name : </label>
+                    <input type="text"> <br><br>
+                    
+                    <label>Email : </label>
+                    <input type="email"> <br><br>
+                    
+                    <label>Phone Number : </label>
+                    <input type="tel"> <br><br>
+                    
+                    <label for="destination">Destination : </label>
+                    <select id="destination">
+                        <option value="Taj Mahal" >Taj Mahal</option>
+                        <option >Goa</option>
+                        <option >Rann of Kutch</option>
+                        <option >Sundarbans</option>
+                    </select>
+
+                    <label >No.of Peoples : </label>
+                    <input type="number" ><br><br>
+
+                    <label >Travel Date : </label>
+                    <input type="datetime"><br><br>
+
+                    <label for="Payment">Payment Method : </label>
+                    <input type="radio" name="Payment"><label for="Payment">Phone Pay</label>
+                    <input type="radio" name="Payment"><label for="Payment">G Pay</label>
+                    <input type="radio" name="Payment"><label for="Payment">Paytm</label>
+                    <br><br>
+
+                    <button type="submit">Book Now</button>&nbsp;&nbsp;&nbsp;
+                    <button type="reset">Reset</button>
+
+                </fieldset>
+            </form>
+        </section>
+
+        <!-- Reviews Section -->
+        <section id="Reviews">
+            <textarea name="description" id="Reviews" placeholder="Give your review"></textarea>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="#Contact">
+            <!-- Email (mailto), Phone (tel), Address, Google Map iframe. -->
+            <a href="mailto:nnarasimharao570@gmail.com">Narasimha Travels</a>
+            <br>
+            <a href="tel:+916304884778">Call for Booking Travel</a>
+            <br>
+            <address>
+                Darsi(M), Prakasam (D)
+            </address>
+            <a href="http://wa.me/916303884778?text=Hello,">WhatsApp</a>
+            <br>
+            <iframe src="https://maps.google.com" frameborder="1"><a href="https://maps.google.com">Google Maps</a></iframe>
+        </section>
+    </main>
+
+    <!-- Foot -->
+    <footer>
+        <!-- Copyright, Terms in <details> -->
+        <h4>Copyrights are reserved 2025</h4>
+        <details>
+            <summary>Privacy & Policy</summary>
+            <p>Your data will be secure and don't share your information to others</p>
+        </details>
+    </footer>
+</body>
+</html>

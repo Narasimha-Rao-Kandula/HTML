@@ -1,0 +1,194 @@
+=============================================
+PROJECT 1: TRAVEL EXPLORER WEBSITE (HTML)
+=============================================
+
+1. INTRODUCTION
+Purpose:
+To design and develop a basic travel website prototype using only HTML. The website will showcase destinations, packages, booking forms, and contact details.
+
+Scope:
+- Website will be static using only HTML.
+- Will act as a prototype for learning and demonstration.
+
+2. USER REQUIREMENTS
+Client Needs:
+1. Homepage with welcome message and highlights.
+2. Navigation menu to access different sections.
+3. Destinations section listing famous places.
+4. Packages section with pricing in a table.
+5. Booking form for customers.
+6. Testimonials or customer reviews section.
+7. Contact page with address, phone, and email.
+8. Footer with terms and conditions.
+
+3. FUNCTIONAL REQUIREMENTS
+Header & Navigation:
+- Display travel company name/logo.
+- Links to #home, #destinations, #packages, #booking, #reviews, #contact.
+
+Home Section:
+- Welcome text.
+- Travel banner image.
+
+Destinations Section:
+- At least 4 destinations with image and description.
+
+Packages Section:
+- Table with Package Name, Duration, Price, Features.
+
+Booking Section:
+- Form fields: Full Name, Email, Phone, Destination, Number of People, Travel Date, Payment Method, Submit, Reset.
+
+Reviews Section:
+- Description list of user reviews.
+
+Contact Section:
+- Email (mailto), Phone (tel), Address, Google Map iframe.
+
+Footer:
+- Copyright, Terms in <details>.
+
+4. NON-FUNCTIONAL REQUIREMENTS
+- Only HTML, no CSS or JS.
+- Proper indentation and comments.
+- Images with alt attributes.
+- Internal navigation working.
+
+5. DELIVERABLES
+1. index.html file.
+2. Placeholder images.
+3. This requirement doc.
+
+
+=============================================
+PROJECT 2: SHOPEASE E-COMMERCE WEBSITE (HTML)
+=============================================
+
+1. INTRODUCTION
+Purpose:
+To design and develop an e-commerce website prototype using only HTML. The website will allow users to view products, check product details, and submit orders.
+
+Scope:
+- Website will be static.
+- Prototype only, not functional shopping cart.
+
+2. USER REQUIREMENTS
+Client Needs:
+1. Homepage introducing the store.
+2. Navigation menu.
+3. Products listing section.
+4. Product details in a table.
+5. Checkout form.
+6. Customer reviews section.
+7. Contact section with email, phone, address.
+8. Footer with company info and terms.
+
+3. FUNCTIONAL REQUIREMENTS
+Header & Navigation:
+- Store name and slogan.
+- Links to #home, #products, #details, #checkout, #reviews, #contact.
+
+Home Section:
+- Welcome message.
+- Banner image.
+
+Products Section:
+- At least 4 products with image, name, price.
+
+Product Details Section:
+- Table with columns: Product Name, Features, Price, Availability.
+
+Checkout Section:
+- Form fields: Name, Email, Phone, Product Selection (dropdown), Quantity, Payment Method (radio), Address, Submit, Reset.
+
+Customer Reviews Section:
+- Description list of reviews.
+
+Contact Section:
+- Email (mailto), Phone (tel), Address, Map iframe.
+
+Footer:
+- Company info, Terms in <details>.
+
+4. NON-FUNCTIONAL REQUIREMENTS
+- Only HTML.
+- Clean indentation.
+- Internal navigation functional.
+- Images with alt attributes.
+
+5. DELIVERABLES
+1. index.html file.
+2. Placeholder product images.
+3. This requirement doc.
+
+
+=============================================
+PROJECT 3: EDUCONNECT COLLEGE WEBSITE (HTML)
+=============================================
+
+1. INTRODUCTION
+Purpose:
+To design and develop a college/university website prototype using only HTML. The website will provide information to students, faculty, and visitors.
+
+Scope:
+- Static website using only HTML.
+- Demonstration project for learning HTML.
+
+2. USER REQUIREMENTS
+Client Needs:
+1. Homepage with welcome note and highlights.
+2. Navigation menu.
+3. About section (history, vision, mission).
+4. Courses/programs section in table.
+5. Faculty section with profiles.
+6. Student registration form.
+7. Announcements or notice board.
+8. Gallery of images.
+9. Contact page.
+10. Footer with policies.
+
+3. FUNCTIONAL REQUIREMENTS
+Header & Navigation:
+- College name/logo.
+- Links to #home, #about, #courses, #faculty, #admissions, #notices, #gallery, #contact.
+
+Home Section:
+- Welcome message, banner, highlights list.
+
+About Section:
+- Paragraph about institution.
+- Blockquote for motto or principal message.
+
+Courses Section:
+- Table with Course Name, Duration, Eligibility, Fees.
+
+Faculty Section:
+- At least 3 faculty profiles using figure and figcaption.
+
+Admissions Section (Form):
+- Fields: Full Name, Email, Phone, DOB, Gender (radio), Course (dropdown), Address, Submit, Reset.
+
+Announcements Section:
+- Notices in list or marquee.
+
+Gallery Section:
+- At least 4 images with captions.
+
+Contact Section:
+- Address (address tag), Email (mailto), Phone (tel), Map iframe.
+
+Footer:
+- Copyright.
+- Terms and Privacy in <details>.
+
+4. NON-FUNCTIONAL REQUIREMENTS
+- Only HTML, no CSS/JS.
+- Indented and commented.
+- All images with alt attributes.
+- Navigation working properly.
+
+5. DELIVERABLES
+1. index.html file.
+2. Placeholder images.
+3. This requirement doc.
+

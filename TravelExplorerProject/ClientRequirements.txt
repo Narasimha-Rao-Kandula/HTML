@@ -1,0 +1,61 @@
+                        =============================================
+                        PROJECT 1: TRAVEL EXPLORER WEBSITE (HTML)
+                        =============================================
+
+        1. INTRODUCTION
+            Purpose:
+                To design and develop a basic travel website prototype using only HTML. The website will showcase destinations, packages, booking forms, and contact details.
+
+            Scope:
+                - Website will be static using only HTML.
+                - Will act as a prototype for learning and demonstration.
+
+        2. USER REQUIREMENTS
+            Client Needs:
+                1. Homepage with welcome message and highlights.
+                2. Navigation menu to access different sections.
+                3. Destinations section listing famous places.
+                4. Packages section with pricing in a table.
+                5. Booking form for customers.
+                6. Testimonials or customer reviews section.
+                7. Contact page with address, phone, and email.
+                8. Footer with terms and conditions.
+
+        3. FUNCTIONAL REQUIREMENTS
+            Header & Navigation:
+                - Display travel company name/logo.
+                - Links to #home, #destinations, #packages, #booking, #reviews, #contact.
+
+            Home Section:
+                - Welcome text.
+                - Travel banner image.
+
+            Destinations Section:
+                - At least  4 destinations with image and description.
+
+            Packages Section:
+                - Table with Package Name, Duration, Price, Features.
+
+            Booking Section:
+                - Form fields: Full Name, Email, Phone, Destination, Number of People, Travel Date, Payment Method, Submit, Reset.
+
+            Reviews Section:
+                - Description list of user reviews.
+
+            Contact Section:
+                - Email (mailto), Phone (tel), Address, Google Map iframe.
+
+            Footer:
+                - Copyright, Terms in <details>.
+
+        4. NON-FUNCTIONAL REQUIREMENTS
+            - Only HTML, no CSS or JS.
+            - Proper indentation and comments.
+            - Images with alt attributes.
+            - Internal navigation working.
+
+        5. DELIVERABLES
+            1. index.html file.
+            2. Placeholder images.
+            3. This requirement doc.
+
