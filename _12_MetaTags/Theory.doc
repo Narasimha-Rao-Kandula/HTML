@@ -1,0 +1,30 @@
+                            Meta Tags
+
+        It is nothing about the data of the web page 
+                            or
+        The data about data
+
+        |- <meta />  --- it is self closing Tags
+        |- Attributes:
+            |- charset --- UTF-8,16,32
+            |- name
+                |- 1. viewport --- screen sizes
+
+                |- 2. author  --- owner of the page or something
+
+                |- 3. keywords --- which helpful to identify the page easily
+
+                |- 4. description  --- to describe to the web page 
+
+                |- 5. http-equiv --- allows you to provide processing instructions for the browser as if the response that returned the document included certain HTTP headers
+
+
+            |- content 
+                |-1. width = device-width
+                |-1. initial-scale = 1.0
+
+                |-2. Owner Name, CompanyName..,
+
+                |-3. related to our webpage search (trending words) such as web, frontend, backend, full-stack...,
+
+                |-4. It is a leaning platform to learn web related technologies and build the real-time apps, web applications ...,
